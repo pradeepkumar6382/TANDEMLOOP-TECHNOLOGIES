@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator using Class</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+            color: #333;
+        }
+        input, select, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Welcome to Program1.js</h3>
+    <input type="number" id="firstnum" placeholder="Enter the first Number" />
+    <input type="number" id="secondnum" placeholder="Enter the Second Number" />
+     <select id="Operationtype">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+     </select>
+     <button onclick="Calculate()">Calculate</button>
+     <h3 id="output">Output:</h3>
+    <script src="index.js"></script>
+</body>
+</html>
